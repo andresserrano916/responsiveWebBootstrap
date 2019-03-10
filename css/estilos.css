@@ -1,0 +1,107 @@
+@charset "UTF-8";
+html {
+  font-size: 15px; }
+
+/* Estilos bloque bienvenidos */
+.bienvenidos {
+  background: url("../images/fondo-bienvenidos.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden; }
+
+.fixed-top {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.navbar-light .navbar-brand {
+  color: #fdfdfd;
+  font-size: 1.3rem;
+  text-transform: uppercase; }
+
+.navbar-toggler {
+  font-size: 1.6rem; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  text-align: center;
+  padding: .7rem;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease; }
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(253, 252, 252, 0.95);
+  background-color: #F05F40; }
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 0.95);
+  background-color: #F05F40; }
+
+.text-bienvenido {
+  color: #fff;
+  margin-top: 9rem; }
+
+.btn-primary {
+  background-color: #F05F40;
+  border-color: #B93E24;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  text-transform: uppercase; }
+
+.btn-primary:hover {
+  background-color: #F17F66;
+  border-color: #B93E24; }
+
+/*Estilos bloque Quienes somos*/
+.quienes-somos {
+  background-color: #F05F40;
+  color: #FFFFFF; }
+
+/*Estilos bloque Servicios*/
+.servicios .fas {
+  color: #F05F40;
+  font-size: 5rem; }
+
+.servicios .far {
+  color: #F05F40;
+  font-size: 5rem; }
+
+/*Estilos Ultimos proyectos*/
+.ultimos-proyectos {
+  background-color: #424141;
+  color: #FFF; }
+
+.ultimos-proyectos a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5rem; }
+
+.ultimos-proyectos img {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  min-width: 100%; }
+
+.ultimos-proyectos a:hover img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5); }
+
+/*Estilos bloque Pie de página*/
+.footer {
+  color: #fff;
+  background: #222222; }
+
+/*Empiezan los MediaQueries*/
+@media (min-width: 769px) {
+  html {
+    font-size: 16px; }
+
+  .bienvenidos {
+    background: url("../images/fondo-bienvenido-grande.jpg");
+    background-size: cover; } }
+/*# sourceMappingURL=estilos.css.map */
